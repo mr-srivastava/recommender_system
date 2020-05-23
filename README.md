@@ -1,1 +1,5 @@
 # Recommender System
+Recommender Systems are used to generate recommendations. The two main types of recommender systems are either collaborative or content-based filters.
+* **Collaborative filters :** This type of filter is based on users’ rates, and it will recommend us movies that we haven’t watched yet, but users similar to us have, and like. To determine whether two users are similar or not, this filter considers the movies both of them watched and how they rated them. By looking at the items in common, this type of algorithm will basically predict the rate of a movie for a user who hasn’t watched it yet, based on the similar users’ rates.
+* **Content-based filters :** This type of filter does not involve other users if not ourselves. Based on what we like, the algorithm will simply pick items with similar content to recommend us.
+* **Hybrid Engine :**  Ideas brought together from content and collaborative filtering to build an engine that gave movie suggestions to a particular user based on the estimated ratings that it had internally calculated for that user.
